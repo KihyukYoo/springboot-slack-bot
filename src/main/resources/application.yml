@@ -1,0 +1,11 @@
+slack:
+  config:
+    token: your token
+
+
+spring:
+  mvc:
+    static-path-pattern: /resources/**
+logging:
+  level:
+    com.ncomz: DEBUG
