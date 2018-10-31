@@ -19,8 +19,8 @@ springboot-slack-bot/src/main/resources/application.yml
 
 
 ## Thanks
-https://github.com/Ullink/simple-slack-api
-https://github.com/binarythink/slack-juggler
+* https://github.com/Ullink/simple-slack-api
+* https://github.com/binarythink/slack-juggler
 
 
 ## License
