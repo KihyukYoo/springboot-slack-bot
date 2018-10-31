@@ -1,3 +1,4 @@
+
 # springboot-slack-bot
 
 1. Create new Slack App
@@ -15,3 +16,13 @@ https://api.slack.com/apps
 
 5. Set bot user token
 springboot-slack-bot/src/main/resources/application.yml
+
+
+## Thanks
+https://github.com/Ullink/simple-slack-api
+https://github.com/binarythink/slack-juggler
+
+
+## License
+
+This library is licensed under the [Creative Commons CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/) license with no warranty (expressed or implied) for any purpose.
