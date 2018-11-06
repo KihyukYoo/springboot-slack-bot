@@ -18,7 +18,7 @@ public class EchoBotSlackMessagePostedListenerImpl implements SlackMessagePosted
         }
 
         SlackChannel generalChannel = session.findChannelByName("general");
-        String content = event.getMessageContent() + " said " + sender.getUserName();
+        String content = event.getMessageContent() + " said " + sender.getRealName();
 
         session.sendMessage(generalChannel, content);
     }
