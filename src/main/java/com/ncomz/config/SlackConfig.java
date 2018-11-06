@@ -1,8 +1,9 @@
 package com.ncomz.config;
 
-import com.ncomz.listeners.echobot.EchoBotSlackConnectedListenerImpl;
-import com.ncomz.listeners.echobot.EchoBotSlackMessagePostedListenerImpl;
+import com.ncomz.listeners.echobot.EchoBotSlackConnectedListener;
+import com.ncomz.listeners.echobot.EchoBotSlackMessagePostedListener;
 import com.ncomz.properties.SlackProperties;
+import com.ncomz.service.SlackMessageService;
 import com.ullink.slack.simpleslackapi.SlackSession;
 import com.ullink.slack.simpleslackapi.impl.SlackSessionFactory;
 import com.ullink.slack.simpleslackapi.listeners.SlackConnectedListener;
@@ -41,11 +42,11 @@ public class SlackConfig {
 
     @Bean
     SlackConnectedListener handleEchoBotSlackConnectedEvent() {
-        return new EchoBotSlackConnectedListenerImpl();
+        return new EchoBotSlackConnectedListener();
     }
 
     @Bean
     SlackMessagePostedListener handleEchoBotSlackMessagePostedEvent() {
-        return new EchoBotSlackMessagePostedListenerImpl();
+        return new EchoBotSlackMessagePostedListener();
     }
 }

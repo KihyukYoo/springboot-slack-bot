@@ -8,7 +8,7 @@ import com.ullink.slack.simpleslackapi.listeners.SlackMessagePostedListener;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class EchoBotSlackMessagePostedListenerImpl implements SlackMessagePostedListener {
+public class EchoBotSlackMessagePostedListener implements SlackMessagePostedListener {
     @Override
     public void onEvent(SlackMessagePosted event, SlackSession session) {
         SlackUser sender = event.getSender();

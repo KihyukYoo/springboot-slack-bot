@@ -7,7 +7,7 @@ import com.ullink.slack.simpleslackapi.listeners.SlackConnectedListener;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class EchoBotSlackConnectedListenerImpl implements SlackConnectedListener {
+public class EchoBotSlackConnectedListener implements SlackConnectedListener {
     @Override
     public void onEvent(SlackConnected event, SlackSession session) {
         SlackChannel generalChannel = session.findChannelByName("general");
