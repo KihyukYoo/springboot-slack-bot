@@ -49,4 +49,9 @@ public class SlackConfig {
     SlackMessagePostedListener handleEchoBotSlackMessagePostedEvent() {
         return new EchoBotSlackMessagePostedListener();
     }
+
+    @Bean
+    SlackMessageService slackMessageService() throws IOException{
+        return new SlackMessageService(slackSession());
+    }
 }
