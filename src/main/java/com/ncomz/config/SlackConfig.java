@@ -1,7 +1,7 @@
 package com.ncomz.config;
 
-import com.ncomz.listeners.impl.echobot.EchoBotSlackConnectedListenerImpl;
-import com.ncomz.listeners.impl.echobot.EchoBotSlackMessagePostedListenerImpl;
+import com.ncomz.listeners.echobot.EchoBotSlackConnectedListenerImpl;
+import com.ncomz.listeners.echobot.EchoBotSlackMessagePostedListenerImpl;
 import com.ncomz.properties.SlackProperties;
 import com.ullink.slack.simpleslackapi.SlackSession;
 import com.ullink.slack.simpleslackapi.impl.SlackSessionFactory;

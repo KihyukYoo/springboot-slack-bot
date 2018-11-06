@@ -1,4 +1,4 @@
-package com.ncomz.listeners.impl.echobot;
+package com.ncomz.listeners.echobot;
 
 import com.ullink.slack.simpleslackapi.SlackChannel;
 import com.ullink.slack.simpleslackapi.SlackSession;
